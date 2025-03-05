@@ -17,7 +17,7 @@ Throught the use of Gaussian copulas, generates synthetic data by sampling from 
 
 #### **Example Usage:**  
 ```python
-from inepirata.gaussian_copula_synthetizer import SyntheticDataSampler
+from inepacote.gaussian_copula_synthetizer import SyntheticDataSampler
 
 sampler = SyntheticDataSampler()
 sampled_data = sampler.sample(500)
@@ -27,7 +27,7 @@ Simulates the process of student degree selection, allocation, and its long-term
 
 #### **Example Usage:**  
 ```python
-from inepirata.master_blaster_simulator import DegreeAssignmentSimulator
+from inepacote.master_blaster_simulator import DegreeAssignmentSimulator
 
 # Initialize the simulator
 simulator = DegreeAssignmentSimulator(
