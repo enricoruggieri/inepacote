@@ -1,3 +1,4 @@
 *.pkl
 *dta
 *.csv
+jupyternotebooks*
