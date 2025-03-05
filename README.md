@@ -1,15 +1,23 @@
 # **Inepacote**  
 
-This package provides two main classes for generating synthetic data that integrates higher education and national exam information with long-term labor market outcomes.  
+This package provides two main classes for generating synthetic or simulated data that integrates higher education and national exam information with long-term labor market outcomes.  
+
+## **Installation**
+
+Not currently in Pypi, can be installed by running pip install linking directly to this github repository:
+
+```python
+!pip install git+https://github.com/enricoruggieri/inepacote.git
+```
 
 ## **Classes**  
 
 ### **1. SyntheticDataSampler**  
-Generates synthetic data by sampling from chunks of real data distributions, preserving key statistical properties.  
+Throught the use of Gaussian copulas, generates synthetic data by sampling from chunks of real data distributions, preserving key statistical properties.  
 
 #### **Example Usage:**  
 ```python
-from inepirata.master_blaster_simulator import SyntheticDataSampler
+from inepirata.gaussian_copula_synthetizer import SyntheticDataSampler
 
 sampler = SyntheticDataSampler()
 sampled_data = sampler.sample(500)
